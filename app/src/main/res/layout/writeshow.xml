@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#D7F291"
+            android:backgroundTint="#D7F291">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="2024.06.21-2024.-06.23"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="48dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#D7F291"
+                android:drawableLeft="@drawable/________"
+                app:iconPadding="0dp"
+                app:iconSize="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A5DAD4">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:background="#DEF8F4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1. 용화사 (주소: 경기도 안양시 만안구 안양로 216 공평빌딩 6층 수리산 용화사)
+
+
+
+
+
+            우리들의 합격기원을 위해 방문하자!
+
+
+
+
+
+            2. 오늘의 수제돈까스(주소 :경기도 안양시 만안구 안양동 571-21 1층)
+
+
+
+
+
+            배고프니깐 먹으러 가야겠지?
+
+
+
+
+
+            이태리식(주소:경기 안양시 만안구 태평로60번길 24 206호)
+
+
+
+
+
+            여기도 진짜 맛있데!!" />
+    </LinearLayout>
+</LinearLayout>
